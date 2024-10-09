@@ -22,3 +22,5 @@ def main(file_path: str):
     print(entropyy)
 
 main('../task2/output.csv')
+
+# output: 6.6
