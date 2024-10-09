@@ -7,7 +7,7 @@ def read_json(file_path):
     return data['nodes']
 
 def main():
-    nodes = read_json('lab01/data.json')
+    nodes = read_json('task1task1/data.json')
     node_list = list(nodes.keys())
     n = len(node_list)
     adj_matrix = np.zeros((n, n))
